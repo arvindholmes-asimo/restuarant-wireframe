@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
@@ -167,6 +167,7 @@ form {
 }
 
 .icon img {
+    display: none;
     width: 30px;
     max-width: 100%;
 }
@@ -289,6 +290,7 @@ li>a {
     border-bottom: 2px solid black;
 
 }
+
 .hamburger {
     display: block;
 }
@@ -313,6 +315,11 @@ li>a {
         text-align: left;
     }
 
+    .icon img {
+        display: block;
+    }
+
+
 }
 
 @media screen and (min-width:992px) {
@@ -326,7 +333,10 @@ li>a {
 
     .delivery-box {
         flex-direction: row;
-    }
+    flex-wrap: nowrap;
+    column-gap: 20px;
+}
+    
 
     .right-column {
         max-width: 400px;
@@ -336,7 +346,7 @@ li>a {
         margin: 0;
     }
 
-    main{
+    main {
         margin-bottom: 140px;
     }
 
