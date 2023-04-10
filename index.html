@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <title>wireframe</title>
+   
+</head>
+
+<body>
+    <header class="container">
+        <div class="header-content">
+            <div class="left">
+                <img src="https://cdn-icons-png.flaticon.com/512/1980/1980788.png"  width="30" alt="icon">
+                <span class="brand-title">Restauranty</span>
+            </div>
+            <div class="hamburger">
+                <img src="https://cdn-icons-png.flaticon.com/512/2976/2976215.png" onclick="touch()" width="30" class="menu-icon" alt="menu">
+            </div>
+            <div class="right">
+                <nav class="nav-group">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a>Home</a></li>
+                        <li class="nav-item"><a>About Us</a></li>
+                        <li class="nav-item"><a>Menu</a></li>
+                        <li class="nav-item"><a>Gallery</a> </li>
+                        <li class="nav-item"><a>FAQs</a></li>
+                        <li class="nav-item"><a>Account</a></li>
+                    </ul>
+                    <button class="btn "> CONTACT NOW</button>
+                </nav>
+            </div>
+        </div>
+
+        <div class="checkout">
+            <h2>Checkout</h2>
+
+            <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Order Now</a></li>
+                <li>Checkout</li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="delivery-details">
+            <div class="container">
+                <h1 class="main-title">Delivery Details</h1>
+                <div class="delivery-box">
+                    <div class="left-column">
+                        <form class="form">
+                            <input type="text" placeholder="Full Name">
+                            <input type="phone" placeholder="Mobile Number">
+                            <input type="Email" placeholder="Email">
+                            <input type="text" placeholder="Address">
+
+                        </form>
+                        <div class="paymentmethod-container">
+                            <h2>Select a payment method:</h2>
+                            <div class="method shadow">
+                                <div class="icon">
+                                    <input type="radio">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/732/732096.png" alt="paypal">
+
+                                </div>
+                                <div class="title">
+                                    <h3>PayPal</h3>
+                                    <p>your total may vary slightly as your order will be processed in USD</p>
+                                </div>
+                            </div>
+                            <div class="method shadow">
+                                <div class="icon">
+                                    <input type="radio">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/657/657076.png" alt="creditcard">
+
+                                </div>
+                                <div class="title">
+                                    <h3> Credit/ Debit Card</h3>
+                                    <p>
+                                        use yout credit or Debit card
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="method shadow ">
+                                <div class="icon">
+                                    <input type="radio">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/5268/5268002.png"
+                                        alt="cashondelivery">
+
+                                </div>
+                                <div class="title">
+                                    <h3> Cash On Delivery</h3>
+                                    <p>You can pay as cash on delivery</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="right-column">
+                        <h3 class="bottomline ">Confirm order</h3>
+                        <ul class="bottomline shadow">
+                            <li class="order-item">
+                                <span>Veg Biryani X 1 </span><span> $15.00</span>
+                            </li>
+                            <li class="order-item">
+                                <span>Paneer Biryani X 1 </span><span> $20.00</span>
+
+                            </li>
+                            <li class="order-item">
+                                <span>Veg Pulav X 1 </span><span> $18.00</span>
+
+                            </li>
+                        </ul>
+                        <ul class="bottomline shadow">
+                            <li class="order-item">
+                                <span>Subtotal</span> <span>$35.00</span>
+                            </li>
+                            <li class="order-item">
+                                <span>Delivery</span> <span>$5.00</span>
+
+                            </li>
+                            <li class="order-item">
+                                <span>vat</span> <span>$2.00</span>
+
+                            </li>
+                        </ul>
+                        <div class="order-item">
+                            <h3>TOTAl</h3>
+                            <span>$42</span>
+
+                        </div>
+
+                        <div class="coupon-item">
+                            <input type="text" placeholder="Enter discount code">
+                            <button class="apply-btn">Apply</button>
+                        </div>
+                        <button class="btn contact-btn"> CONFIRM ORDER</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="container">
+        <div class="footer-top">
+            <div class="flex-item">
+                <h3 class="nav-heading">Popular Page</h3>
+                <nav class="nav-group">
+                    <ul class="nav-list-footer">
+                        <li class="nav-item-footer"><a>Home</a></li>
+                        <li class="nav-item-footer"><a>About Us</a></li>
+                        <li class="nav-item-footer"><a>Menu</a></li>
+                        <li class="nav-item-footer"><a>Gallery</a></li>
+                        <li class="nav-item-footer"><a>FAQs</a></li>
+                        <li class="nav-item-footer"><a>Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex-item">
+                <h3 class="nav-heading">Popular Category</h3>
+                    <ul class="nav-list-footer">
+                        <li class="nav-item-footer"><a>Beverages</a></li>
+                        <li class="nav-item-footer"><a>Tiffins</a></li>
+                        <li class="nav-item-footer"><a>Meals</a></li>
+                        <li class="nav-item-footer"><a>Sweets</a></li>
+                        <li class="nav-item-footer"><a>Snacks</a></li>
+                        <li class="nav-item-footer"><a>Refreshments</a></li>
+                    </ul>
+            </div>
+            <div class="flex-item">
+                <h3 class="nav-heading">Reach Us</h3>
+                    <ul class="nav-list-footer">
+                        <li class="nav-item-footer">
+                            <a> <div class="inner-item">
+                                <img src="https://cdn-icons-png.flaticon.com/512/0/191.png" width="20" alt="mobile">
+                                <span>+971(0) 55 123456</span>
+                            </div>
+                        </a></li>
+                        <li class="nav-item-footer">
+                            <a><div class="inner-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/126/126341.png" width="20" alt="phone">
+                            <span>+971(0) 55 123456</span>
+
+                        </div></a></li>
+                        <li class="nav-item-footer">
+                            <a><div class="inner-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/126/126341.png" width="20" alt="phone">
+                            <span>+971(0) 55 123456</span>
+                        </div></a></li>
+                        <li class="nav-item-footer"><a><div class="inner-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/10302/10302774.png" width="20" alt="mail">
+                            <span>info@Restauranty.in   </span>
+                        </div></a></li>
+                        <li class="nav-item-footer"><a><div class="inner-item">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1/1198.png" width="20" alt="web">
+                            <span>www.restauranty.ae</span>
+                        </div></a></li>
+                        
+                    </ul>
+            </div>
+            <div class="flex-item">
+                <h3 class="nav-heading">Connect With Us</h3>
+                    <ul class="nav-list-media">
+                        <li class="nav-item-footer">
+                            <a><img width="30" src="https://cdn-icons-png.flaticon.com/512/254/254390.png" alt="facebook">
+                        </a></li>
+                        <li class="nav-item-footer">
+                            <a> <img width="30" src="https://cdn-icons-png.flaticon.com/512/1384/1384049.png" alt="twitter">
+                        </a></li>
+                        <li class="nav-item-footer">
+                            <a>  <img width="30" src="https://cdn-icons-png.flaticon.com/512/2/2050.png" alt="gplus">
+                        </a></li>
+                        <li class="nav-item-footer">
+                            <a> <img width="30" src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" alt="insta">
+                        </a></li>
+                    </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <span>2023 Restauranty. All Rigths Reserved</span>
+            <Span> <img width="30" src="https://cdn-icons-png.flaticon.com/512/657/657076.png" alt="creditcard"> <img
+                    width="30" src="https://cdn-icons-png.flaticon.com/512/657/657076.png" alt="creditcard"> <img
+                    width="30"  src="https://cdn-icons-png.flaticon.com/512/657/657076.png" alt="creditcard"> <img
+                    width="30"  src="https://cdn-icons-png.flaticon.com/512/657/657076.png" alt="creditcard"> <img
+                    width="30" src="https://cdn-icons-png.flaticon.com/512/657/657076.png" alt="creditcard"></Span>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
