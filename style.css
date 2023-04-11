@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --bg-grey: rgb(238 238 238);
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
@@ -78,6 +74,7 @@ ul.breadcrumb li a:hover {
     border: 1px solid black;
     padding: 3px 20px;
     height: 30px;
+    background: #fff;
 }
 
 .nav-group {
@@ -156,14 +153,18 @@ main {
 
 .form input {
     width: 100%;
-    max-width: 350px;
+    max-width: 390px;
     height: 30px;
     margin: 5px 0px;
     padding: 0 10px;
 }
+.flex-item {
+    padding: 0 10px 10px 0;
+}
 
 form {
     margin: 30px 0;
+    text-align: center;
 }
 
 .icon img {
@@ -250,7 +251,7 @@ li>a {
 
 .footer-bottom {
     width: 100%;
-    background: var(--bg-grey);
+    background: rgb(124 124 124 / 63%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,7 +295,13 @@ li>a {
     display: block;
 }
 
-
+.banner{
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-chili-sauce-food-orange-psd-layered-main-picture-background-material-image_147766.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 @media screen and (min-width:600px) {
     .form input {
         margin: 10px 20px;
@@ -306,7 +313,7 @@ li>a {
 
     .footer-top {
         margin: 0 35px;
-        padding: 20px 10px;
+        padding: 20px 3%;
     }
 
     .footer-bottom {
@@ -343,7 +350,7 @@ li>a {
 
     .footer-top {
         margin: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     }
 
