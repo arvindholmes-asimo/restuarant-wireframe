@@ -294,6 +294,10 @@ li>a {
 .hamburger {
     display: block;
 }
+.nav-item:active {
+    background: dodgerblue;
+    color: #fff;
+}
 
 .banner{
     background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-chili-sauce-food-orange-psd-layered-main-picture-background-material-image_147766.jpg");
